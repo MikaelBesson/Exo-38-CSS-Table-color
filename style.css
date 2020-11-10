@@ -1,0 +1,63 @@
+
+
+table {
+    border-collapse: collapse;
+    caption-side: top;
+    border:1px solid black;
+}
+
+td {
+    border:1px solid black;
+    text-align: center;
+}
+
+th, thead {
+    border:1px solid black;
+}
+
+#titre {
+    color: blue;
+    vertical-align: super;
+}
+
+.color {
+    border:1px solid black;
+}
+
+#enTete th:nth-child(3), th:nth-child(5), th:nth-child(6), th:nth-child(8) {
+    color:blue;
+}
+
+#enTete th:nth-child(4), th:nth-child(7) {
+    color:red;
+}
+
+span {
+    font-size: small;
+    color:blue;
+}
+
+.color td:nth-child(2) {
+    background-color: blue;
+}
+
+.color td:nth-child(3) {
+    background-color: red;
+}
+
+.color td:nth-child(4) {
+    background-color:purple;
+}
+.color td:nth-child(5) {
+    background-color: deeppink;
+}
+.color td:nth-child(6) {
+    background-color: yellow;
+}
+
+.date {
+    color:blue;
+}
+
+
+
